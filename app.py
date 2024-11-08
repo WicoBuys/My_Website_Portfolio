@@ -84,8 +84,8 @@ projects = [
     {
         "title": "Project 1 - Image_to_Icon GUI",
         "description": "Convert any image into a icon easily and effectively.",
-        "github": "https://github.com/wicobuys",
-        "app": "https://project1.app"
+        "github": "https://wico.gumroad.com/l/cvwtz",
+        "app": "https://wico.gumroad.com/l/cvwtz"
     },
     {
         "title": "Project 2 - Facebook Video Downloader App",
@@ -154,7 +154,7 @@ if page == "Home":
                 <div class="project-card animate__animated animate__fadeIn">
                     <h3>{project['title']}</h3>
                     <p>{project['description']}</p>
-                    <p><a href="{project['github']}"><i class="fas fa-code icon"></i>GitHub Repository</a></p>
+                    <p><a href="{project['github']}"><i class="fas fa-code icon"></i>More Information</a></p>
                     <p><a href="{project['app']}"><i class="fas fa-external-link-alt icon"></i>Live App</a></p>
                 </div>
                 """, unsafe_allow_html=True)
