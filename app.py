@@ -7,9 +7,9 @@ from pathlib import Path
 
 # Function to send email
 def send_email(name, email, message):
-    sender_email = "your_email@example.com"  # Replace with your email
+    sender_email = "wico.pydev@gmail.com"  # Replace with your email
     receiver_email = "wico.pydev@gmail.com"
-    password = "your_email_password"  # Replace with your email password
+    password = "dzpggddzmlalnoyp"  # Replace with your email password
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
@@ -82,53 +82,41 @@ st.markdown(
 
 projects = [
     {
-        "title": "Project 1",
-        "description": "Description of Project 1",
+        "title": "Project 1 - Image_to_Icon GUI",
+        "description": "Convert any image into a icon easily and effectively.",
         "github": "https://github.com/wicobuys",
         "app": "https://project1.app"
     },
     {
-        "title": "Project 2",
-        "description": "Description of Project 2",
+        "title": "Project 2 - Facebook Video Downloader App",
+        "description": "You can copy a facebook video url and paste it into the app and download it to your drive.",
         "github": "https://github.com/wicobuys",
         "app": "https://project2.app"
     },
     {
-        "title": "Project 3",
-        "description": "Description of Project 3",
+        "title": "Project 3 - Vehicle Finance Calculator",
+        "description": "Simple GUI to enter values and calculate a monthly premium.",
         "github": "https://github.com/wicobuys",
         "app": "https://project3.app"
     },
     {
-        "title": "Project 4",
-        "description": "Description of Project 4",
+        "title": "Project 4 - Countdown Timer",
+        "description": "This is a simple Countdown timer gui that you can set a time and start a timer showed on the screen.",
         "github": "https://github.com/wicobuys",
         "app": "https://project4.app"
     },
     {
-        "title": "Project 5",
-        "description": "Description of Project 5",
+        "title": "Project 5 - Minesweeper Game",
+        "description": "Play the classic minesweeper game on your desktop.",
         "github": "https://github.com/wicobuys",
         "app": "https://project5.app"
     },
     {
-        "title": "Project 6",
-        "description": "Description of Project 6",
+        "title": "Project 6 - Family Quiz Game",
+        "description": "General Knowledge, Math & Trick questions.",
         "github": "https://github.com/wicobuys",
         "app": "https://project6.app"
     },
-    {
-        "title": "Project 7",
-        "description": "Description of Project 7",
-        "github": "https://github.com/wicobuys",
-        "app": "https://project7.app"
-    },
-    {
-        "title": "Project 8",
-        "description": "Description of Project 8",
-        "github": "https://github.com/wicobuys",
-        "app": "https://project8.app"
-    }
 ]
 
 if page == "Home":
